@@ -4,10 +4,7 @@ description: "Orchestrator for the full academic research pipeline: research -> 
 metadata:
   version: "1.0"
   last_updated: "2026-02"
-  depends_on:
-    - deep-research
-    - academic-paper
-    - academic-paper-reviewer
+  depends_on: "deep-research, academic-paper, academic-paper-reviewer"
 ---
 
 # Academic Pipeline -- 學術研究全流程調度器
